@@ -217,8 +217,8 @@ export default function Component() {
 							/>
 							<FeatureCardComponent
 								icon={<Smartphone size={32} />}
-								title="Offline Access"
-								description="Use the app anytime, anywhere, without an internet connection."
+								title="AI Assistance"
+								description="Built in AI to help you understand your mental health."
 							/>
 						</FeaturesGrid>
 					</FeaturesSection>
@@ -227,7 +227,7 @@ export default function Component() {
 
 			<Footer>
 				<FooterContent>
-					<FooterText>© 2023 MindfulJournal. All rights reserved.</FooterText>
+					<FooterText>© 2024 ThoughtFlow. All rights reserved.</FooterText>
 				</FooterContent>
 			</Footer>
 		</AppContainer>
