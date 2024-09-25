@@ -187,13 +187,13 @@ export default function Component() {
 				<MainContent>
 					<CenteredText>
 						<MainTitle>Your Personal Mental Health Companion</MainTitle>
-						<MainDescription>
-							Download ThoughtFlow APK for Android and start your journey to better mental health today.
-						</MainDescription>
+						<MainDescription>Download ThoughtFlow APK for Android and start your journey to better mental health today.</MainDescription>
 						<div style={{ marginTop: "2.5rem" }}>
-							<DownloadButton>
-								<Download style={{ marginRight: "0.5rem", height: "1.25rem", width: "1.25rem" }} /> Download APK
-							</DownloadButton>
+							<a href="https://journalbucket3312.s3.us-east-2.amazonaws.com/ThoughtFlow.apk" download>
+								<DownloadButton>
+									<Download style={{ marginRight: "0.5rem", height: "1.25rem", width: "1.25rem" }} /> Download APK
+								</DownloadButton>
+							</a>
 						</div>
 					</CenteredText>
 
@@ -210,11 +210,7 @@ export default function Component() {
 								title="Mood Tracking"
 								description="Monitor your emotional well-being over time with intuitive mood logs."
 							/>
-							<FeatureCardComponent
-								icon={<Lock size={32} />}
-								title="Private & Secure"
-								description="Your data is securely stored."
-							/>
+							<FeatureCardComponent icon={<Lock size={32} />} title="Private & Secure" description="Your data is securely stored." />
 							<FeatureCardComponent
 								icon={<Smartphone size={32} />}
 								title="AI Assistance"
