@@ -189,7 +189,7 @@ export default function Component() {
 						<MainTitle>Your Personal Mental Health Companion</MainTitle>
 						<MainDescription>Download ThoughtFlow APK for Android and start your journey to better mental health today.</MainDescription>
 						<div style={{ marginTop: "2.5rem" }}>
-							<a href="https://journalbucket3312.s3.us-east-2.amazonaws.com/thoughtflow3.apk" download>
+							<a href="https://journalbucket3312.s3.us-east-2.amazonaws.com/ThoughtFlowAI.apk" download>
 								<DownloadButton>
 									<Download style={{ marginRight: "0.5rem", height: "1.25rem", width: "1.25rem" }} /> Download APK
 								</DownloadButton>
